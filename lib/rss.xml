@@ -1,156 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Lebenheim]]></title><description><![CDATA[Obsidian digital garden]]></description><link>https://mitfart.github.io/DND.JCompain/</link><image><url>https://mitfart.github.io/DND.JCompain/lib/media/favicon.png</url><title>Lebenheim</title><link>https://mitfart.github.io/DND.JCompain/</link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Tue, 22 Oct 2024 12:03:59 GMT</lastBuildDate><atom:link href="https://mitfart.github.io/DND.JCompain/lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Tue, 22 Oct 2024 12:02:13 GMT</pubDate><copyright><![CDATA[Mitfart]]></copyright><ttl>60</ttl><dc:creator>Mitfart</dc:creator><item><title><![CDATA[Ссылки]]></title><description><![CDATA[ 
- <br><br>
-<br>Выпечка: <a rel="noopener nofollow" class="external-link" href="https://www.dndspeak.com/2020/02/17/100-breads-muffins-and-other-baked-goods/" target="_blank">https://www.dndspeak.com/2020/02/17/100-breads-muffins-and-other-baked-goods/</a>
-<br><a rel="noopener nofollow" class="external-link" href="https://www.dndspeak.com/2020/01/02/100-meals-made-from-monster-parts/" target="_blank">https://www.dndspeak.com/2020/01/02/100-meals-made-from-monster-parts/</a>
-<br><br>
-<br><a rel="noopener nofollow" class="external-link" href="https://docs.google.com/document/d/1-olJ9Pb1BxOnWwTs5XFRt31xtT3-8dC1HF6OIJreQMw/edit" target="_blank">https://docs.google.com/document/d/1-olJ9Pb1BxOnWwTs5XFRt31xtT3-8dC1HF6OIJreQMw/edit</a>
-<br><br>
-<br><a rel="noopener nofollow" class="external-link" href="https://www.youtube.com/watch?v=k7R1-wgWDL8" target="_blank">https://www.youtube.com/watch?v=k7R1-wgWDL8</a>
-<br><br>
-<br><a rel="noopener nofollow" class="external-link" href="https://d20.pub/resources/weapons-armor-special-materials-magical-properties/" target="_blank">https://d20.pub/resources/weapons-armor-special-materials-magical-properties/</a>
-<br><a rel="noopener nofollow" class="external-link" href="https://www.reddit.com/r/UnearthedArcana/comments/15g3xzi/comment/jugkn9b/" target="_blank">https://www.reddit.com/r/UnearthedArcana/comments/15g3xzi/comment/jugkn9b/</a>
-<br><br>
-<br><a rel="noopener nofollow" class="external-link" href="https://www.youtube.com/watch?v=mw4Vx8u1oA8" target="_blank">https://www.youtube.com/watch?v=mw4Vx8u1oA8</a>
-]]></description><link>https://mitfart.github.io/DND.JCompain/правила/_скрытые/3rd-party/ссылки.html</link><guid isPermaLink="false">Правила/_Скрытые/3rd Party/Ссылки.md</guid><dc:creator><![CDATA[Mitfart]]></dc:creator><pubDate>Tue, 08 Oct 2024 11:56:52 GMT</pubDate></item><item><title><![CDATA[Зелья]]></title><description><![CDATA[ 
- <br><br><br><br><br><br><br><br>]]></description><link>https://mitfart.github.io/DND.JCompain/правила/_скрытые/заметки/зелья.html</link><guid isPermaLink="false">Правила/_Скрытые/Заметки/Зелья.md</guid><dc:creator><![CDATA[Mitfart]]></dc:creator><pubDate>Sat, 06 Jul 2024 14:41:20 GMT</pubDate></item><item><title><![CDATA[КУ - КД - ПБ]]></title><description><![CDATA[ 
- <br><br><br><br><br>КУ - Класс Уклонения<br>
-КД - Класс Доспеха<br>
-ПБ - Поглощение Броней<br>Когда атака против вас:<br>
-<br>Выше вашего КД, по вам попали, вы получаете полный урон
-<br>Ниже вашего КУ, вы уклонились и не получаете урон
-<br>Между вашим КУ и КД, по вам попали, вы получаете урон, уменьшая на ПБ (Применяется после Сопротивлений)
-<br><br><br>Если вы носите доспех, который слишком тяжелый: <br>
-<br>Вы совершаете с помехой все проверки характеристик, спасброски и броски атаки, использующие Силу или Ловкость.
-<br>Вы не можете накладывать заклинания.
-<br>Ваша скорость уменьшается вдвое (в 2 раза).
-<br><br><br>
-<br>Защита без доспехов (Варвар / Монах):
-
-<br>ПБ равно БМ;
-<br>Монах: Дает КУ и КД;
-<br>Варвар: Дает КД, КУ считается по формуле без доспехов, можно Использовать Силу вместо Ловкости, для подсчета КД;
-
-
-<br>Заклинания дают бонус КД и ПБ
-
-<br>Например заклинание <a data-href="Щит" href="https://mitfart.github.io/DND.JCompain/правила/заклинания/1/щит.html" class="internal-link" target="_self" rel="noopener nofollow">Щит</a> (+3) дает +3 КД и +3 ПБ;
-
-
-<br>По остальным случаям уточняйте у ДМ-а, как работает способность, руководствуясь логикой;
-<br>Для Мастера: 
-
-<br>Совет для Бестиария:
-<br>Для монстров с малым КУ, вы можете добавить БМ к КД их статблоков, в таком случае их ПБ равен БМ-у, или удвоенному БМ-у, на ваш выбор.
-
-
-<br><br>
-<br>Дополнительное или Основное оружие с закупаемым уроном (изначально 1к4) 
-<br>
-<br>при использование щита, КУ считается по самой тяжелой броне или щиту, который вы экипировали<br>
-Пример: Легкий доспех + Средний Щит =&gt; КУ = 10 + Лов (макс. 2) (Средний Доспех)
-]]></description><link>https://mitfart.github.io/DND.JCompain/правила/_скрытые/заметки/ку-кд-пб.html</link><guid isPermaLink="false">Правила/_Скрытые/Заметки/КУ - КД - ПБ.md</guid><dc:creator><![CDATA[Mitfart]]></dc:creator><pubDate>Fri, 06 Sep 2024 18:52:54 GMT</pubDate></item><item><title><![CDATA[Преимущество - Помеха]]></title><description><![CDATA[ 
- <br><br>Бонусы и Штрафы из таблицы суммируются
-Copy<br>
-<br>Преимущество и Помеха равноценны, поэтому 1 преимущество нивелирует 1 помеху и наоборот.
-]]></description><link>https://mitfart.github.io/DND.JCompain/правила/_скрытые/заметки/преимущество-помеха.html</link><guid isPermaLink="false">Правила/_Скрытые/Заметки/Преимущество - Помеха.md</guid><dc:creator><![CDATA[Mitfart]]></dc:creator><pubDate>Tue, 17 Sep 2024 17:15:14 GMT</pubDate></item><item><title><![CDATA[Ресурс Короткий в Продолжительный]]></title><description><![CDATA[ 
- <br><br>Если вы хотите конвертировать восстановление способности из Короткого в Продолжительный отдых, то количество использований данной способности увеличивается в количество раз равное вашему бонусу мастерства.<br>
-<br>В таком случае Ресурс восстанавливается лишь на Продолжительном отдыхе, а не на коротком.
-<br><br><br><br>
-<br>1 раз до короткого
-<br>3 раза до длительного
-<br><br>
-<br>3 раза до короткого
-<br>9 раз до длительного
-<br><br>
-<br>2 до короткого
-<br>6 до длительного
-]]></description><link>https://mitfart.github.io/DND.JCompain/правила/_скрытые/заметки/ресурс-короткий-в-продолжительный.html</link><guid isPermaLink="false">Правила/_Скрытые/Заметки/Ресурс Короткий в Продолжительный.md</guid><dc:creator><![CDATA[Mitfart]]></dc:creator><pubDate>Thu, 12 Sep 2024 16:52:55 GMT</pubDate></item><item><title><![CDATA[Вопросы на 0 сэссии]]></title><description><![CDATA[ 
- <br>
-<br>Ты уже играл(а) в TTRPG?
-<br>Что тебе понравилось в предыдущих играх? / Что тебе нравится в TTRPG?
-<br>Ты предпочитаешь: Сражения, Пазлы и Исследования, или Отыгрышь?
-<br>Что ты можешь предложить группе? / Какая твоя сильная черта?
-<br>Распимание:<br>
-<br>Продолжительность (День, месяц, год?)
-<br>Время игр (Вечер? Утро? 19:00?)
-<br>Время игры (1 или 5 часов?)
-<br>Что если кто-то опаздывает?
-<br>Что если кто-то не приходит?
-<br>Когда отменяем игры?
-<br>Что делаем с персонажем ушедшего игрока?
-<br>Игра:<br>
-<br>Чего ожидаете?
-<br>Какое настроение мира?
-<br>Хотите только отыгрывать? или сражаться?
-<br>Неприятные темы? пауки? клоуны? мясорубка? гниль?
-<br>Игрок против игрока?
-<br>Давайте, меняйте мой мир!
-<br><br>Детектив<br>
-Загадки<br>
-Око эндера<br>
-Фрукт знаний<br>
-Мир духов<br>
-Экскалибур<br><br><a rel="noopener nofollow" class="external-link" href="https://www.nonfictiongaming.com/2017/05/16/questions-dm-ask-players-starting-dd-campaign/" target="_blank">https://www.nonfictiongaming.com/2017/05/16/questions-dm-ask-players-starting-dd-campaign/</a><br>
-<a rel="noopener nofollow" class="external-link" href="https://www.dndspeak.com/2019/03/05/100-warm-up-roleplaying-questions-for-players/" target="_blank">https://www.dndspeak.com/2019/03/05/100-warm-up-roleplaying-questions-for-players/</a>]]></description><link>https://mitfart.github.io/DND.JCompain/правила/_скрытые/начало-кампании/вопросы-на-0-сэссии.html</link><guid isPermaLink="false">Правила/_Скрытые/Начало Кампании/Вопросы на 0 сэссии.md</guid><dc:creator><![CDATA[Mitfart]]></dc:creator><pubDate>Mon, 24 Jun 2024 21:34:33 GMT</pubDate></item><item><title><![CDATA[Содержание]]></title><description><![CDATA[ 
- <br>
-<br>Какой Тон / Wibe / Настроение компании?
-
-<br>"Приключение" ("Аватар: Легенда об Аанге") - История где есть место шуткам и несерьезности, но с достаточной драмой. Фокус идет не на результат а на путь. 
-<br>Комедия ("Чикен Карри") - какие бы цели не преследовали игроки, насколько бы не были высоки ставки, большая часть истории подается как шутка и не воспринимается серьезно. 
-<br>Хоррор (Lil Nightmares) - компания рассчитанная чтобы вызвать страх игроков включает в себя слабость героев, их страх. 
-<br>Эпическая - классическое "Эпическое фэнтези", герои спасают мир от глобального катаклизма. Самое важное что происходит в мире - история игроков.
-
-
-<br>Какой Концепт компании?
-
-<br>"Высокий" - легко воспринимается и являются "изюминкой" или главной особенностью компании.
-
-<br>Пример_1: В мире живут маги 4 стихий, которые жили в мире, но народ огня начал войну. 
-<br>Пример_2: Голодные игры. 
-<br>Пример_3: Аниме-Сённен.
-
-
-<br>"Низкий" - часто является затравкой к сцене и не является серьезной частью истории. 
-
-<br>Пример_1: История в больнице. 
-<br>Пример_2: История про друзей. 
-<br>Пример_3: Аниме-Повседневность 
-
-
-
-
-<br>Создай ОСНОВУ Сеттинга / Мира и продумай его базу
-
-<br>??? (Удачи :D)
-
-
-<br>Какой Конфликт компании?
-
-<br>Причина изменения мира / Цель / "Почему ты пошел?" / Проблема
-
-
-<br>Включи игроков
-
-<br>Расскажи что приготовил. 
-<br>Обсуди и помоги с персонажем.
-<br>Спроси чего хочет игрок от персонажа и игры. Пример: история с его семьей, история его пути, и тп.
-<br>Спроси чего НЕ хочет игрок от персонажа и игры. Пример: не хочет вовлекать семью персонажа, не хочет убивать врагов, и тп.
-<br>Вплети персонажа в мир.
-
-
-<br><br><br><br>
-<br><a data-href="Вопросы на 0 сэссии" href="https://mitfart.github.io/DND.JCompain/правила/_скрытые/начало-кампании/вопросы-на-0-сэссии.html" class="internal-link" target="_self" rel="noopener nofollow">Вопросы на 0 сэссии</a>
-<br>]]></description><link>https://mitfart.github.io/DND.JCompain/правила/_скрытые/начало-кампании/начало-кампании.html</link><guid isPermaLink="false">Правила/_Скрытые/Начало Кампании/Начало Кампании.md</guid><dc:creator><![CDATA[Mitfart]]></dc:creator><pubDate>Tue, 22 Oct 2024 11:41:38 GMT</pubDate></item><item><title><![CDATA[Случайные столкновения]]></title><description><![CDATA[ 
- <br><a rel="noopener nofollow" class="external-link" href="https://blackcitadelrpg.com/random-encounters-5e/#Example_Random_Encounter_Table_The_Flanks_of_Firepeak_Mountain" target="_blank">https://blackcitadelrpg.com/random-encounters-5e/#Example_Random_Encounter_Table_The_Flanks_of_Firepeak_Mountain</a><br>Пример:<br>Бросок 1d8.<br>
-<br>Красный Дракон,&nbsp;взлетающий из своего горного логова, чтобы патрулировать свои владения.
-<br>Процессия культистов 3d6&nbsp;поднимается на гору из города, неся сопротивляющегося неверующего, направляясь к жертвенному столбу возле логова дракона.
-<br>Громкий грохот из глубин земли.&nbsp;Далеко вверху вершина горы изрыгает в небо чернильный дым и полосы огня.
-<br>Трещина в земле со скелетом огра, запертым в ней, наполовину из красного камня.&nbsp;На его шее висит тяжелая золотая цепь с выгравированными узорами из драконьей чешуи (стоимостью 250 gp).&nbsp;У него очень большая дубинка.
-<br>Отряд из 1d4 + 1 перепуганных халфлингов&nbsp;прячется среди камней.&nbsp;Они на пути, чтобы попытаться спасти своего брата, которого культисты забрали на гору два дня назад, но они слишком напуганы драконом, чтобы продолжать.
-<br>Далекий, нестройный крик&nbsp;из глубины земли – песня банши, запертой в лавовой пещере.
-<br>Мерцающие призраки.&nbsp;2d6 бледных, призрачных фигур убегают мимо вас вниз по горе, крича, прежде чем вспыхнуть бледно-зеленым пламенем.
-<br>Вход в пещеру, недавно открытый землетрясением, зияет, глядя в небо.&nbsp;Внутри извилистый, похожий на змею проход к логову дракона и 1d4 только что вылупившихся огненных змей.
-]]></description><link>https://mitfart.github.io/DND.JCompain/правила/_скрытые/случайные-столкновения.html</link><guid isPermaLink="false">Правила/_Скрытые/Случайные столкновения.md</guid><dc:creator><![CDATA[Mitfart]]></dc:creator><pubDate>Tue, 08 Oct 2024 08:49:05 GMT</pubDate></item><item><title><![CDATA[Требования по количеству еды]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Lebenheim]]></title><description><![CDATA[Obsidian digital garden]]></description><link>https://mitfart.github.io/DND.JCompain/</link><image><url>https://mitfart.github.io/DND.JCompain/lib/media/favicon.png</url><title>Lebenheim</title><link>https://mitfart.github.io/DND.JCompain/</link></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Tue, 22 Oct 2024 12:23:54 GMT</lastBuildDate><atom:link href="https://mitfart.github.io/DND.JCompain/lib/rss.xml" rel="self" type="application/rss+xml"/><pubDate>Tue, 22 Oct 2024 12:22:11 GMT</pubDate><copyright><![CDATA[Mitfart]]></copyright><ttl>60</ttl><dc:creator>Mitfart</dc:creator><item><title><![CDATA[Требования по количеству еды]]></title><description><![CDATA[ 
  <br><br><br><br>СП - Сложность приготовления
 Copy<br>
 <br>Выбор ингредиентов - игроки ингредиенты, которые они хотят приготовить
@@ -593,7 +441,7 @@ N:<br>
 <br>Некоторые подклассы дают возможность использовать заклинания без вербального компонента, или с его заменой. 
 <br>Вы также можете поговорить с мастером, чтобы придумать условие для замены Вербального компонента.
 
-<br><br><br>
+<br><br>
 Ваша скорость передвижения увеличивается на 5 фт.
 <br><br>
 Вы можете совершать, <a data-tooltip-position="top" aria-label="https://ttg.club/screens/Dash" rel="noopener nofollow" class="external-link" href="https://ttg.club/screens/Dash" target="_blank">Рывок</a> и <a data-tooltip-position="top" aria-label="https://ttg.club/screens/Disengage" rel="noopener nofollow" class="external-link" href="https://ttg.club/screens/Disengage" target="_blank">Отход</a> бонусным действием.
@@ -611,7 +459,7 @@ N:<br>
 <br><br>
 У вас есть когти, лапы, или тп, которые дают вам скорость Копания равную скорости ходьбы.
 Вы можете Бонусным Действием оставить за собой туннель, но в таком случае ваша скорость Копания уменьшается втрое. 
-<br><br><br>
+<br><br>
 На расстоянии 30 фт вы при тусклом освещении можете видеть так, как будто это яркое освещение, и в темноте так, как будто это тусклое освещение.<br>
 В темноте вы не можете различать цвета, только оттенки серого.
 <br><br>
@@ -620,7 +468,7 @@ N:<br>
 <br><br>
 На расстоянии 120 фт вы при тусклом освещении можете видеть так, как будто это яркое освещение, и в темноте так, как будто это тусклое освещение.<br>
 В темноте вы не можете различать цвета, только оттенки серого.
-<br><br><br>
+<br><br>
 Вы можете обнаруживать и определять источник колебаний в пределах 30 фт при условии, что вы и источник колебаний находятся в контакте с одной и той же поверхностью или веществом.<br>
 Чувство вибрации не может быть использовано для обнаружения летающих или бесплотных существ.
 <br><br>
@@ -629,13 +477,17 @@ N:<br>
 <br><br>
 Вы можете обнаруживать и определять источник колебаний в пределах 120 фт при условии, что вы и источник колебаний находятся в контакте с одной и той же поверхностью или веществом.<br>
 Чувство вибрации не может быть использовано для обнаружения летающих или бесплотных существ.
-<br><br><br>
+<br><br>
 Вы можете воспринимать своё окружение в радиусе 15 фт, не полагаясь на зрение. 
 <br><br>
 Вы можете воспринимать своё окружение в радиусе 30 фт, не полагаясь на зрение. 
 <br><br>
 Вы можете воспринимать своё окружение в радиусе 60 фт, не полагаясь на зрение. 
-<br><br><br>
+<br><br>
+Вы получаете владение 1 навыком, или инструментом, на ваш выбор.
+<br><br>
+Вы получаете Героическое вдохновение каждый раз после продолжительного отдыха. 
+<br><br>
 Вы уменьшается урон выбранного типа на БМ.
 <br><br>
 Вы получаете <a data-tooltip-position="top" aria-label="https://ttg.club/screens/resistance" rel="noopener nofollow" class="external-link" href="https://ttg.club/screens/resistance" target="_blank">Сопротивление</a> к 1 типу урона.
@@ -842,7 +694,7 @@ N:<br>
 Выберите по одной способности из каждой строки следующей таблицы:
 <br><br><br>
 Выберите подвид из следующей таблицы.
-<br>]]></description><link>https://mitfart.github.io/DND.JCompain/правила/0_для-мастера/создание-расы/способности.html</link><guid isPermaLink="false">Правила/0_Для мастера/Создание Расы/Способности.md</guid><dc:creator><![CDATA[Mitfart]]></dc:creator><pubDate>Sat, 12 Oct 2024 07:27:23 GMT</pubDate></item><item><title><![CDATA[0_Для мастера]]></title><description><![CDATA[ 
+<br>]]></description><link>https://mitfart.github.io/DND.JCompain/правила/0_для-мастера/создание-расы/способности.html</link><guid isPermaLink="false">Правила/0_Для мастера/Создание Расы/Способности.md</guid><dc:creator><![CDATA[Mitfart]]></dc:creator><pubDate>Tue, 22 Oct 2024 12:21:20 GMT</pubDate></item><item><title><![CDATA[0_Для мастера]]></title><description><![CDATA[ 
  <br><br>
 <br><a rel="noopener nofollow" class="external-link" href="https://rpg.stackexchange.com/questions/200182/is-there-any-estimate-of-average-damage-output-per-turn-for-pcs-by-level" target="_blank">https://rpg.stackexchange.com/questions/200182/is-there-any-estimate-of-average-damage-output-per-turn-for-pcs-by-level</a>
 <br><br><br><br>
@@ -1335,12 +1187,12 @@ N:<br>
 
 <br>]]></description><link>https://mitfart.github.io/DND.JCompain/правила/правила.html</link><guid isPermaLink="false">Правила/Правила.md</guid><dc:creator><![CDATA[Mitfart]]></dc:creator><pubDate>Tue, 22 Oct 2024 11:41:49 GMT</pubDate></item><item><title><![CDATA[Драгоценные камни]]></title><description><![CDATA[ 
  <br><br>
-Родохрозит
+Полосчатый агат
 <br><br><br>
-Оникс
+Халцедон
 <br><br><br>
-Хризоберилл
-<br><br><br><br><br><br><br>]]></description><link>https://mitfart.github.io/DND.JCompain/предметы/драгоценные-камни/драгоценные-камни.html</link><guid isPermaLink="false">Предметы/Драгоценные камни/Драгоценные камни.md</guid><dc:creator><![CDATA[Mitfart]]></dc:creator><pubDate>Fri, 09 Aug 2024 20:38:43 GMT</pubDate><enclosure url="https://mitfart.github.io/DND.JCompain/предметы/драгоценные-камни/картинки/обычные/10/азурит.jpeg" length="0" type="image/jpeg"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://mitfart.github.io/DND.JCompain/предметы/драгоценные-камни/картинки/обычные/10/азурит.jpeg&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Вастайи]]></title><description><![CDATA[<a class="tag" href="https://mitfart.github.io/DND.JCompain/?query=tag:Зверь" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#Зверь</a> <a class="tag" href="https://mitfart.github.io/DND.JCompain/?query=tag:Зверь" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#Зверь</a> <a class="tag" href="https://mitfart.github.io/DND.JCompain/?query=tag:Гуманоид" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#Гуманоид</a> 
+Гагат
+<br><br><br><br><br><br><br>]]></description><link>https://mitfart.github.io/DND.JCompain/предметы/драгоценные-камни/драгоценные-камни.html</link><guid isPermaLink="false">Предметы/Драгоценные камни/Драгоценные камни.md</guid><dc:creator><![CDATA[Mitfart]]></dc:creator><pubDate>Fri, 09 Aug 2024 20:38:43 GMT</pubDate><enclosure url="https://mitfart.github.io/DND.JCompain/предметы/драгоценные-камни/картинки/обычные/10/азурит.jpeg" length="0" type="image/jpeg"/><content:encoded>&lt;figure&gt;&lt;img src="https://mitfart.github.io/DND.JCompain/предметы/драгоценные-камни/картинки/обычные/10/азурит.jpeg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Вастайи]]></title><description><![CDATA[<a class="tag" href="https://mitfart.github.io/DND.JCompain/?query=tag:Зверь" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#Зверь</a> <a class="tag" href="https://mitfart.github.io/DND.JCompain/?query=tag:Зверь" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#Зверь</a> <a class="tag" href="https://mitfart.github.io/DND.JCompain/?query=tag:Гуманоид" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#Гуманоид</a> 
  <br><br>
 Ваш тип существа: одновременно <a href="https://mitfart.github.io/DND.JCompain?query=tag:Зверь" class="tag" target="_blank" rel="noopener nofollow">#Зверь</a> и <a href="https://mitfart.github.io/DND.JCompain?query=tag:Гуманоид" class="tag" target="_blank" rel="noopener nofollow">#Гуманоид</a>.<br>
 На вас действуют заклинания, нацеленные на любой из них.
@@ -1425,11 +1277,13 @@ Copy<br><br>
 Ваша одежда и снаряжение не меняются вместе с изменением внешнего вида.
 Вы остаетесь в новой форме до тех пор, пока не используете действие, чтобы вернуться к своей истинной форме, или пока не умрёте.
 ]]></description><link>https://mitfart.github.io/DND.JCompain/создание-персонажа/0_вид/хенко.html</link><guid isPermaLink="false">Создание Персонажа/0_Вид/Хенко.md</guid><dc:creator><![CDATA[Mitfart]]></dc:creator><pubDate>Sat, 12 Oct 2024 07:35:02 GMT</pubDate></item><item><title><![CDATA[Человек]]></title><description><![CDATA[ 
- <br><br>
+ <br><br><br><br><br>
+Вы получаете Героическое вдохновение каждый раз после продолжительного отдыха. 
+<br><br><br><br><br>
 Вы получаете владение 1 навыком, или инструментом, на ваш выбор.
 <br><br><br><br><br>
 Вы получаете&nbsp;<a data-tooltip-position="top" aria-label="https://ttg.club/traits" rel="noopener nofollow" class="external-link" href="https://ttg.club/traits" target="_blank">черту</a>&nbsp;по вашему выбору, требованиям которой вы удовлетворяете. При этом вы считаетесь персонажем минимум 4 уровня. 
-]]></description><link>https://mitfart.github.io/DND.JCompain/создание-персонажа/0_вид/человек.html</link><guid isPermaLink="false">Создание Персонажа/0_Вид/Человек.md</guid><dc:creator><![CDATA[Mitfart]]></dc:creator><pubDate>Tue, 01 Oct 2024 09:05:14 GMT</pubDate></item><item><title><![CDATA[Предыстория]]></title><description><![CDATA[ 
+]]></description><link>https://mitfart.github.io/DND.JCompain/создание-персонажа/0_вид/человек.html</link><guid isPermaLink="false">Создание Персонажа/0_Вид/Человек.md</guid><dc:creator><![CDATA[Mitfart]]></dc:creator><pubDate>Tue, 22 Oct 2024 12:20:47 GMT</pubDate></item><item><title><![CDATA[Предыстория]]></title><description><![CDATA[ 
  <br><br>
 В предыстории перечислены 3 из ваших характеристик персонажа. Увеличьте одну из них на 2, а другую на 1; или увеличьте каждую из трех на 1. 
 <br><br>
@@ -1524,7 +1378,7 @@ Copy<br><br>
 Вы знаете 2 <a data-tooltip-position="top" aria-label="Языки" data-href="Языки" href="https://mitfart.github.io/DND.JCompain/прописка_лора/1_прописано/языки.html" class="internal-link" target="_self" rel="noopener nofollow">обычных</a> и 1 <a data-tooltip-position="top" aria-label="Языки > Необычные" data-href="Языки#Необычные" href="https://mitfart.github.io/DND.JCompain/прописка_лора/1_прописано/языки.html#Необычные" class="internal-link" target="_self" rel="noopener nofollow">необычный язык</a>, на ваш выбор.
 <br><br>
 Также, за каждые 2 мод. Интеллекта, вы можете получить владение Навыком, Инструментом, или выучить любой <a data-tooltip-position="top" aria-label="Языки" data-href="Языки" href="https://mitfart.github.io/DND.JCompain/прописка_лора/1_прописано/языки.html" class="internal-link" target="_self" rel="noopener nofollow">Язык</a>, который одобрит мастер, на ваш выбор.
-<br><br><br><img alt="0_Размеры.jpg" src="https://mitfart.github.io/DND.JCompain/создание-персонажа/0_вид/картинки/0_размеры.jpg">]]></description><link>https://mitfart.github.io/DND.JCompain/создание-персонажа/создание-листа.html</link><guid isPermaLink="false">Создание Персонажа/Создание Листа.md</guid><dc:creator><![CDATA[Mitfart]]></dc:creator><pubDate>Sat, 12 Oct 2024 07:11:45 GMT</pubDate><enclosure url="https://mitfart.github.io/DND.JCompain/создание-персонажа/0_вид/картинки/0_размеры.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;figure&gt;&lt;img src=&quot;https://mitfart.github.io/DND.JCompain/создание-персонажа/0_вид/картинки/0_размеры.jpg&quot;&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Акана]]></title><description><![CDATA[<a class="tag" href="https://mitfart.github.io/DND.JCompain/?query=tag:Исчадие" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#Исчадие</a> <a class="tag" href="https://mitfart.github.io/DND.JCompain/?query=tag:Исчадие" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#Исчадие</a> <a class="tag" href="https://mitfart.github.io/DND.JCompain/?query=tag:Гуманоид" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#Гуманоид</a> <a class="tag" href="https://mitfart.github.io/DND.JCompain/?query=tag:Крошечный" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#Крошечный</a> 
+<br><br><br><img alt="0_Размеры.jpg" src="https://mitfart.github.io/DND.JCompain/создание-персонажа/0_вид/картинки/0_размеры.jpg">]]></description><link>https://mitfart.github.io/DND.JCompain/создание-персонажа/создание-листа.html</link><guid isPermaLink="false">Создание Персонажа/Создание Листа.md</guid><dc:creator><![CDATA[Mitfart]]></dc:creator><pubDate>Sat, 12 Oct 2024 07:11:45 GMT</pubDate><enclosure url="https://mitfart.github.io/DND.JCompain/создание-персонажа/0_вид/картинки/0_размеры.jpg" length="0" type="image/jpeg"/><content:encoded>&lt;figure&gt;&lt;img src="https://mitfart.github.io/DND.JCompain/создание-персонажа/0_вид/картинки/0_размеры.jpg"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Акана]]></title><description><![CDATA[<a class="tag" href="https://mitfart.github.io/DND.JCompain/?query=tag:Исчадие" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#Исчадие</a> <a class="tag" href="https://mitfart.github.io/DND.JCompain/?query=tag:Исчадие" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#Исчадие</a> <a class="tag" href="https://mitfart.github.io/DND.JCompain/?query=tag:Гуманоид" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#Гуманоид</a> <a class="tag" href="https://mitfart.github.io/DND.JCompain/?query=tag:Крошечный" style="background-color: rgb(4, 108, 116); color: white; font-weight: 700; border: none; border-radius: 1em; padding: 0.2em 0.5em;">#Крошечный</a> 
  <br>Акума - Акана - Шакхар - Демон - Разные названия.
 Отличительные черты внешности: 
 - Рога, от 1 и более. Бывают ровными, изогнутыми, или положими на дерево. Являются проводником магии. (Обязательно)

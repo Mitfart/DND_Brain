@@ -1,0 +1,329 @@
+<!DOCTYPE html> <html lang="en"><head>
+<title>Монах</title>
+<base href="../../..">
+<meta name="pathname" content="правила/классы/монах/монах.html">
+<meta name="description" content="DND-Brain - Монах">
+<meta property="og:title" content="Монах">
+<meta property="og:description" content="DND-Brain - Монах">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://mitfart.github.io/DND_Brain/правила/классы/монах/монах.html">
+<meta property="og:image" content="undefined">
+<meta name="author" content="Mitfart"><meta property="og:site_name" content="DND-Brain"><meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, minimum-scale=1.0, maximum-scale=5.0"><meta charset="UTF-8"><link rel="alternate" type="application/rss+xml" title="RSS Feed" href="https://mitfart.github.io/DND_Brain/site-lib/rss.xml"><script async="" id="webpage-script" src="site-lib/scripts/webpage.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="graph-wasm-script" src="site-lib/scripts/graph-wasm.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="graph-render-worker-script" src="site-lib/scripts/graph-render-worker.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><link rel="icon" href="site-lib/media/favicon.png"><link rel="stylesheet" href="site-lib/styles/obsidian.css"><link rel="preload" href="site-lib/styles/other-plugins.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="site-lib/styles/other-plugins.css"></noscript><link rel="preload" href="site-lib/styles/global-variable-styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="site-lib/styles/global-variable-styles.css"></noscript><link rel="preload" href="site-lib/styles/main-styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="site-lib/styles/main-styles.css"></noscript><style>body{--line-width:40em;--line-width-adaptive:40em;--file-line-width:40em;--sidebar-width:min(20em, 80vw);--collapse-arrow-size:11px;--tree-vertical-spacing:1.3em;--sidebar-margin:12px}:root{background-color:#202124}.sidebar{height:100%;font-size:14px;z-index:10;min-width:calc(var(--sidebar-width) + var(--divider-width-hover));max-width:calc(var(--sidebar-width) + var(--divider-width-hover));position:relative;overflow:hidden;overflow:clip;transition:min-width ease-in-out,max-width ease-in-out;transition-duration:.2s;contain:size}#left-sidebar{left:0}#right-sidebar{right:0}.sidebar.is-collapsed{min-width:0;max-width:0}.sidebar.floating{position:absolute}.sidebar .leaf-content{height:100%;min-width:calc(var(--sidebar-width) - var(--divider-width-hover));top:0;padding:var(--sidebar-margin);padding-top:4em;line-height:var(--line-height-tight);background-color:var(--background-secondary);transition:background-color,border-right,border-left,box-shadow;transition-duration:var(--color-fade-speed);transition-timing-function:ease-in-out;position:absolute;display:flex;flex-direction:column}.sidebar:not(.is-collapsed) .leaf-content{min-width:calc(max(100%,var(--sidebar-width)) - 3px);max-width:calc(max(100%,var(--sidebar-width)) - 3px)}#left-sidebar-content{left:0;border-top-right-radius:var(--radius-l);border-bottom-right-radius:var(--radius-l)}#right-sidebar-content{right:0;border-top-left-radius:var(--radius-l);border-bottom-left-radius:var(--radius-l)}.sidebar #left-sidebar-content,.sidebar #right-sidebar-content{contain:none!important;container-type:normal!important;animation:none!important}.sidebar:has(.leaf-content:empty):has(.topbar-content:empty){display:none}.sidebar-topbar{height:2em;width:var(--sidebar-width);top:var(--sidebar-margin);padding-inline:var(--sidebar-margin);z-index:1;position:fixed;display:flex;align-items:center;transition:width ease-in-out;transition-duration:inherit}.sidebar.is-collapsed .sidebar-topbar{width:calc(2.3em + var(--sidebar-margin) * 2)}.sidebar .sidebar-topbar.is-collapsed{width:0}#left-sidebar .sidebar-topbar{left:0;flex-direction:row}#right-sidebar .sidebar-topbar{right:0;flex-direction:row-reverse}#left-sidebar .topbar-content{margin-right:calc(2.3em + var(--sidebar-margin));flex-direction:row}#right-sidebar .topbar-content{margin-left:calc(2.3em + var(--sidebar-margin));flex-direction:row-reverse}.topbar-content{overflow:hidden visible;overflow:clip visible;width:100%;height:100%;display:flex;align-items:center;transition:inherit}.sidebar.is-collapsed .topbar-content{width:0;transition:inherit}.clickable-icon.sidebar-collapse-icon{background-color:transparent;color:var(--icon-color-focused);padding:2px!important;margin:0!important;height:100%!important;width:2.3em!important;margin-inline:0.14em!important;position:absolute}#left-sidebar .clickable-icon.sidebar-collapse-icon{transform:rotateY(180deg);right:var(--sidebar-margin)}#right-sidebar .clickable-icon.sidebar-collapse-icon{transform:rotateY(180deg);left:var(--sidebar-margin)}.clickable-icon.sidebar-collapse-icon svg.svg-icon{width:100%;height:100%}.feature-title{margin-left:4px;text-transform:uppercase;letter-spacing:.06em;margin-top:.75em;margin-bottom:.75em}.feature-header{display:flex;align-items:center;padding-top:0;font-size:1em;padding-left:0}body.floating-sidebars .sidebar{position:absolute}body{transition:background-color var(--color-fade-speed) ease-in-out}#layout{display:flex;flex-direction:row;height:100%;width:100%;align-items:stretch;justify-content:center}#center-content{flex-basis:100%;max-width:100%;width:100%;height:100%;display:flex;flex-direction:column;align-items:center;transition:opacity .2s ease-in-out;contain:inline-size}.hide{opacity:0!important;transition:opacity .2s ease-in-out;pointer-events:none}#center-content>.obsidian-document{padding-left:2em;padding-right:1em;margin-bottom:0;width:100%;width:-webkit-fill-available;width:-moz-available;width:fill-available;transition:background-color var(--color-fade-speed) ease-in-out;border-top-right-radius:var(--window-radius,var(--radius-m));border-top-left-radius:var(--window-radius,var(--radius-m));overflow-x:hidden!important;overflow-y:auto!important;display:flex!important;flex-direction:column!important;align-items:center!important;contain:inline-size}body #center-content>.obsidian-document>.markdown-preview-sizer{padding-bottom:80vh;width:100%;max-width:var(--line-width);flex-basis:var(--line-width);transition:background-color var(--color-fade-speed) ease-in-out;contain:inline-size}#center-content>.obsidian-document>div{width:100%!important;transition:background-color var(--color-fade-speed) ease-in-out;contain:inline-size}#center-content>.obsidian-document:not([data-type=markdown]).embed{display:flex;padding:1em;height:100%;width:100%;align-items:center;justify-content:center}#center-content>.obsidian-document:not([data-type=markdown]).embed>*{max-width:100%;max-height:100%;object-fit:contain}:not(h1,h2,h3,h4,h5,h6):has(> :is(.math:not(.math-inline),table)){overflow-x:auto!important}#center-content>.obsidian-document:not([data-type=markdown]){overflow-x:auto;contain:content;padding:0;margin:0;height:100%}.obsidian-document[data-type=attachment]{display:flex;flex-direction:column;align-items:center;justify-content:center;height:100%;width:100%}.obsidian-document[data-type=attachment]>*{outline:0;border:none;box-shadow:none}.obsidian-document[data-type=attachment] :is(img){max-width:90%;max-height:90%;object-fit:contain}.obsidian-document[data-type=attachment]>:is(audio){width:100%;max-width:min(90%,var(--line-width))}.obsidian-document[data-type=attachment]>:is(embed,iframe,video){width:100%;height:100%;max-width:100%;max-height:100%;object-fit:contain}.canvas-wrapper>:is(.header,.footer){z-index:100;position:absolute;display:flex;justify-content:center;flex-direction:column;width:100%;align-items:center}.scroll-highlight{position:absolute;width:100%;height:100%;pointer-events:none;z-index:1000;background-color:hsla(var(--color-accent-hsl),.25);opacity:0;padding:1em;inset:50%;translate:-50% -50%;border-radius:var(--radius-s)}</style><script defer="">async function loadIncludes(){let e=document.querySelectorAll("link[itemprop='include']");for(const t of e){let e=t.getAttribute("href");try{let o="";if(e.startsWith("https:")||e.startsWith("http:")||"file:"!=window.location.protocol){const l=await fetch(e);if(!l.ok){console.log("Could not include file: "+e),t?.remove();continue}o=await l.text()}else{const t=document.getElementById(btoa(encodeURI(e)));if(t){const e=JSON.parse(decodeURI(atob(t.getAttribute("value")??"")));o=e?.data??""}}let l=document.createRange().createContextualFragment(o),n=Array.from(l.children);for(let e of n)e?.classList?.add("hide"),e.style.transition="opacity 0.5s ease-in-out",setTimeout((()=>{e?.classList?.remove("hide")}),10);t.before(l),t.remove(),console.log("Included text: "+o),console.log("Included file: "+e)}catch(o){t?.remove(),console.log("Could not include file: "+e,o);continue}}}document.addEventListener("DOMContentLoaded",(()=>{loadIncludes()}));let isFileProtocol="file:"==location.protocol;function waitLoadScripts(e,t){let o=e.map((e=>document.getElementById(e+"-script")));!function e(l){let n=o[l],c=l+1;n?(n&&"true"!=n.getAttribute("loaded")||l<o.length&&e(c),l<o.length&&n.addEventListener("load",(()=>e(c)))):l<o.length?e(c):t()}(0)}</script></head><body class="publish css-settings-manager show-inline-title show-ribbon"><script defer="">let theme=localStorage.getItem("theme")||(window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");"dark"==theme?(document.body.classList.add("theme-dark"),document.body.classList.remove("theme-light")):(document.body.classList.add("theme-light"),document.body.classList.remove("theme-dark")),window.innerWidth<480?document.body.classList.add("is-phone"):window.innerWidth<768?document.body.classList.add("is-tablet"):window.innerWidth<1024?document.body.classList.add("is-small-screen"):document.body.classList.add("is-large-screen")</script><div class="parsed-feature-container" style="display: contents;"><link itemprop="include" href="site-lib/html/custom-head-content-content.html"></div><div id="layout"><div id="left-content" class="leaf" style="--sidebar-width: var(--sidebar-width-left);"><div id="left-sidebar" class="sidebar"><div class="sidebar-handle"></div><div class="sidebar-topbar"><div class="topbar-content"><div id="search-container"><div id="search-wrapper"><input enterkeyhint="search" type="search" spellcheck="false" placeholder="Search..."><div aria-label="Clear search" id="search-clear-button"></div></div></div></div><div class="clickable-icon sidebar-collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><path d="M21 3H3C1.89543 3 1 3.89543 1 5V19C1 20.1046 1.89543 21 3 21H21C22.1046 21 23 20.1046 23 19V5C23 3.89543 22.1046 3 21 3Z"></path><path d="M10 4V20"></path><path d="M4 7H7"></path><path d="M4 10H7"></path><path d="M4 13H7"></path></svg></div></div><div class="sidebar-content-wrapper"><div id="left-sidebar-content" class="leaf-content"><link itemprop="include" href="site-lib/html/file-tree-content.html"></div></div><script defer="">let ls = document.querySelector("#left-sidebar"); ls.classList.toggle("is-collapsed", window.innerWidth < 768); ls.style.setProperty("--sidebar-width", localStorage.getItem("sidebar-left-width"));</script></div></div><div id="center-content" class="leaf"><div class="obsidian-document markdown-preview-view markdown-rendered node-insert-event is-readable-line-width allow-fold-headings allow-fold-lists show-indentation-guide show-properties" data-type="markdown"><style id="MJX-CHTML-styles"></style><div class="markdown-preview-sizer markdown-preview-section"><div class="header"><h1 class="page-title heading inline-title" id="Монах_0">Монах</h1><div class="data-bar"></div></div><div class="markdown-preview-pusher" style="width: 1px; height: 0.1px; margin-bottom: 0px;"></div><div class="el-pre"><pre><code data-line="0">Мастер тела и духа
+</code><button class="copy-code-button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-copy"><rect x="8" y="8" width="14" height="14" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg></button></pre></div><div class="el-h2"><h2 data-heading="Особенности" dir="auto" class="heading" id="Особенности_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Особенности</h2></div><div class="el-table" dir="ltr" style="overflow-x: auto;"><table>
+<thead>
+<tr>
+<th dir="ltr">Особенность</th>
+<th dir="ltr">Значение</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td dir="ltr"><strong>Основная характеристика</strong></td>
+<td dir="ltr">Ловкость и Мудрость</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Кость хитов</strong></td>
+<td dir="ltr">к8</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Хиты</strong></td>
+<td dir="ltr">8 + Тел. - за 1 уровень <br>5 + Тел. - за уровни выше 1</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Спаcброски</strong></td>
+<td dir="ltr">Сила и Ловкость</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Навыки</strong></td>
+<td dir="ltr">+2 навыка, на ваш выбор</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Инструменты</strong></td>
+<td dir="ltr">+1 инструмент ремесленника или музыкальный инструмент</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Оружие</strong></td>
+<td dir="ltr">Простое, Лёгкое рукопашное</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Доспехи</strong></td>
+<td dir="ltr">Нет</td>
+</tr>
+<tr>
+<td dir="ltr"><strong>Стартовое снаряжение</strong></td>
+<td dir="ltr">Выберите А или Б: <br>- А) Копьё, 5 кинжалов, инструменты ремесленника или музыкальный инструмент, набор путешественника и 10 зм<br>- Б) 50 зм</td>
+</tr>
+</tbody>
+</table></div><div class="el-h2"><h2 data-heading="Монах" dir="auto" class="heading" id="Монах_1"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Монах</h2></div><div class="el-table" dir="ltr" style="overflow-x: auto;"><table>
+<thead>
+<tr>
+<th dir="ltr">Ур.</th>
+<th dir="ltr">БМ</th>
+<th dir="ltr">Умения</th>
+<th dir="ltr">Кость <br>техник</th>
+<th dir="ltr">Очки <br>духа</th>
+<th dir="ltr">Движение без доспехов</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td dir="auto">1</td>
+<td dir="auto">+2</td>
+<td dir="ltr"><a data-href="#Боевые искусства" href="правила/классы/монах/монах.html#Боевые_искусства_0" class="internal-link" target="_self" rel="noopener nofollow">Боевые искусства</a>,<br><br><a data-href="#Защита без доспехов" href="правила/классы/монах/монах.html#Защита_без_доспехов_0" class="internal-link" target="_self" rel="noopener nofollow">Защита без доспехов</a></td>
+<td dir="ltr">к6</td>
+<td dir="auto">-</td>
+<td dir="ltr">+10 фт</td>
+</tr>
+<tr>
+<td dir="auto">2</td>
+<td dir="auto">+2</td>
+<td dir="ltr"><a data-href="#Очки духа" href="правила/классы/монах/монах.html#Очки_духа_0" class="internal-link" target="_self" rel="noopener nofollow">Очки духа</a>,<br><br><a data-href="#Техники" href="правила/классы/монах/монах.html#Техники_0" class="internal-link" target="_self" rel="noopener nofollow">Техники</a></td>
+<td dir="ltr">к6</td>
+<td dir="auto">2</td>
+<td dir="ltr">+10 фт</td>
+</tr>
+<tr>
+<td dir="auto">3</td>
+<td dir="auto">+2</td>
+<td dir="ltr"><a data-href="#Подкласс" href="правила/классы/монах/монах.html#Подкласс_0" class="internal-link" target="_self" rel="noopener nofollow">Подкласс</a></td>
+<td dir="ltr">к6</td>
+<td dir="auto">3</td>
+<td dir="ltr">+10 фт</td>
+</tr>
+<tr>
+<td dir="auto">4</td>
+<td dir="auto">+2</td>
+<td dir="ltr"><a data-href="#Улучшение характеристик" href="правила/классы/монах/монах.html#Улучшение_характеристик_0" class="internal-link" target="_self" rel="noopener nofollow">Улучшение характеристик</a></td>
+<td dir="ltr">к6</td>
+<td dir="auto">4</td>
+<td dir="ltr">+10 фт</td>
+</tr>
+<tr>
+<td dir="auto">5</td>
+<td dir="auto">+3</td>
+<td dir="ltr"><a data-href="#Дополнительная атака" href="правила/классы/монах/монах.html#Дополнительная_атака_0" class="internal-link" target="_self" rel="noopener nofollow">Дополнительная атака</a></td>
+<td dir="ltr">к8</td>
+<td dir="auto">5</td>
+<td dir="ltr">+15 фт</td>
+</tr>
+<tr>
+<td dir="auto">6</td>
+<td dir="auto">+3</td>
+<td dir="ltr"><a data-href="#Техники" href="правила/классы/монах/монах.html#Техники_0" class="internal-link" target="_self" rel="noopener nofollow">Техники</a></td>
+<td dir="ltr">к8</td>
+<td dir="auto">6</td>
+<td dir="ltr">+15 фт</td>
+</tr>
+<tr>
+<td dir="auto">7</td>
+<td dir="auto">+3</td>
+<td dir="ltr"><a data-tooltip-position="top" aria-label="Подкласс" data-href="#Подкласс" href="правила/классы/монах/монах.html#Подкласс_0" class="internal-link" target="_self" rel="noopener nofollow">Умение подкласса</a></td>
+<td dir="ltr">к8</td>
+<td dir="auto">7</td>
+<td dir="ltr">+15 фт</td>
+</tr>
+<tr>
+<td dir="auto">8</td>
+<td dir="auto">+3</td>
+<td dir="ltr"><a data-href="#Улучшение характеристик" href="правила/классы/монах/монах.html#Улучшение_характеристик_0" class="internal-link" target="_self" rel="noopener nofollow">Улучшение характеристик</a></td>
+<td dir="ltr">к8</td>
+<td dir="auto">8</td>
+<td dir="ltr">+15 фт</td>
+</tr>
+<tr>
+<td dir="auto">9</td>
+<td dir="auto">+4</td>
+<td dir="ltr"><a data-href="#Техники" href="правила/классы/монах/монах.html#Техники_0" class="internal-link" target="_self" rel="noopener nofollow">Техники</a></td>
+<td dir="ltr">к8</td>
+<td dir="auto">9</td>
+<td dir="ltr">+20 фт</td>
+</tr>
+<tr>
+<td dir="auto">10</td>
+<td dir="auto">+4</td>
+<td dir="ltr"><a data-href="#Отточенная техника" href="правила/классы/монах/монах.html#Отточенная_техника_0" class="internal-link" target="_self" rel="noopener nofollow">Отточенная техника</a></td>
+<td dir="ltr">к8</td>
+<td dir="auto">10</td>
+<td dir="ltr">+20 фт</td>
+</tr>
+<tr>
+<td dir="auto">11</td>
+<td dir="auto">+4</td>
+<td dir="ltr"><a data-tooltip-position="top" aria-label="Подкласс" data-href="#Подкласс" href="правила/классы/монах/монах.html#Подкласс_0" class="internal-link" target="_self" rel="noopener nofollow">Умение подкласса</a></td>
+<td dir="ltr">к10</td>
+<td dir="auto">11</td>
+<td dir="ltr">+20 фт</td>
+</tr>
+<tr>
+<td dir="auto">12</td>
+<td dir="auto">+4</td>
+<td dir="ltr"><a data-href="#Улучшение характеристик" href="правила/классы/монах/монах.html#Улучшение_характеристик_0" class="internal-link" target="_self" rel="noopener nofollow">Улучшение характеристик</a></td>
+<td dir="ltr">к10</td>
+<td dir="auto">12</td>
+<td dir="ltr">+20 фт</td>
+</tr>
+<tr>
+<td dir="auto">13</td>
+<td dir="auto">+5</td>
+<td dir="ltr"><a data-href="#Стойкий дух" href="правила/классы/монах/монах.html#Стойкий_дух_0" class="internal-link" target="_self" rel="noopener nofollow">Стойкий дух</a></td>
+<td dir="ltr">к10</td>
+<td dir="auto">13</td>
+<td dir="ltr">+25 фт</td>
+</tr>
+<tr>
+<td dir="auto">14</td>
+<td dir="auto">+5</td>
+<td dir="auto"></td>
+<td dir="ltr">к10</td>
+<td dir="auto">14</td>
+<td dir="ltr">+25 фт</td>
+</tr>
+<tr>
+<td dir="auto">15</td>
+<td dir="auto">+5</td>
+<td dir="ltr"><a data-tooltip-position="top" aria-label="Подкласс" data-href="#Подкласс" href="правила/классы/монах/монах.html#Подкласс_0" class="internal-link" target="_self" rel="noopener nofollow">Умение подкласса</a></td>
+<td dir="ltr">к10</td>
+<td dir="auto">15</td>
+<td dir="ltr">+25 фт</td>
+</tr>
+<tr>
+<td dir="auto">16</td>
+<td dir="auto">+5</td>
+<td dir="ltr"><a data-href="#Улучшение характеристик" href="правила/классы/монах/монах.html#Улучшение_характеристик_0" class="internal-link" target="_self" rel="noopener nofollow">Улучшение характеристик</a></td>
+<td dir="ltr">к10</td>
+<td dir="auto">16</td>
+<td dir="ltr">+25 фт</td>
+</tr>
+<tr>
+<td dir="auto">17</td>
+<td dir="auto">+6</td>
+<td dir="ltr"><a data-href="#Совершенное тело" href="правила/классы/монах/монах.html#Совершенное_тело_0" class="internal-link" target="_self" rel="noopener nofollow">Совершенное тело</a></td>
+<td dir="ltr">к12</td>
+<td dir="auto">17</td>
+<td dir="ltr">+30 фт</td>
+</tr>
+<tr>
+<td dir="auto">18</td>
+<td dir="auto">+6</td>
+<td dir="ltr"><a data-href="#Пробуждение" href="правила/классы/монах/монах.html#Пробуждение_0" class="internal-link" target="_self" rel="noopener nofollow">Пробуждение</a></td>
+<td dir="ltr">к12</td>
+<td dir="auto">18</td>
+<td dir="ltr">+30 фт</td>
+</tr>
+<tr>
+<td dir="auto">19</td>
+<td dir="auto">+6</td>
+<td dir="ltr"><a data-href="#Эпическая черта" href="правила/классы/монах/монах.html#Эпическая_черта_0" class="internal-link" target="_self" rel="noopener nofollow">Эпическая черта</a></td>
+<td dir="ltr">к12</td>
+<td dir="auto">19</td>
+<td dir="ltr">+30 фт</td>
+</tr>
+<tr>
+<td dir="auto">20</td>
+<td dir="auto">+6</td>
+<td dir="ltr"><a data-href="#Идеальное тело и дух" href="правила/классы/монах/монах.html#Идеальное_тело_и_дух_0" class="internal-link" target="_self" rel="noopener nofollow">Идеальное тело и дух</a></td>
+<td dir="ltr">к12</td>
+<td dir="auto">20</td>
+<td dir="ltr">+30 фт</td>
+</tr>
+</tbody>
+</table></div><div class="el-h2"><h2 data-heading="Умения" dir="auto" class="heading" id="Умения_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Умения</h2></div><div class="el-h3"><h3 data-heading="Боевые искусства" dir="auto" class="heading" id="Боевые_искусства_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Боевые искусства</h3></div><div class="el-blockquote"><blockquote dir="auto">
+<pre><code data-line="0">1 уровень
+</code><button class="copy-code-button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-copy"><rect x="8" y="8" width="14" height="14" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg></button></pre>
+<p>Вы получаете следующие эффекты, если безоружны или используете оружие, которым владеете и не носите доспехи или щит:</p>
+<h5 data-heading="Искустные атаки" dir="auto" class="heading" id="Искустные_атаки_0">Искустные атаки</h5>
+<p>Вы можете изменить урон <em>Атаки</em> на: 1 <a data-tooltip-position="top" aria-label="Боевые искусства" data-href="#Боевые искусства" href="правила/классы/монах/монах.html#Боевые_искусства_0" class="internal-link" target="_self" rel="noopener nofollow">Кости техник</a> + мод. <strong>Ловкости</strong>. </p>
+<h5 data-heading="Ловкие атаки" dir="auto" class="heading" id="Ловкие_атаки_0">Ловкие атаки</h5>
+<p>Вы можете использовать <strong>Ловкость</strong> вместо <strong>Силы</strong> для бросков атаки и урона оружием. </p>
+<p>Также, вы можете использовать <strong>Ловкость</strong> вместо вашего <strong>Силы</strong> для определения сложности спасброска <strong><em>Захвата</em></strong> и <strong><em>Толчка</em></strong>.</p>
+<h5 data-heading="Движение без доспехов" dir="auto" class="heading" id="Движение_без_доспехов_0">Движение без доспехов</h5>
+<p>Ваша скорость увеличивается, как показано в колонке <em>"Движение без доспехов"</em> таблицы <a data-tooltip-position="top" aria-label="^monk-abilities" data-href="#^monk-abilities" href="правила/классы/монах/монах.html#^monk-abilities_0" class="internal-link" target="_self" rel="noopener nofollow">Умения монаха</a>. </p>
+<h5 data-heading="Ловкие прыжки" dir="auto" class="heading" id="Ловкие_прыжки_0">Ловкие прыжки</h5>
+<p>Вы можете использовать <strong>Ловкость</strong>, вместо <strong>Силы</strong>, для определения дистанции ваших <a data-tooltip-position="top" aria-label="Фэнтези прыжки" data-href="Фэнтези прыжки" href="правила/общие/фэнтези-прыжки.html#_0" class="internal-link" target="_self" rel="noopener nofollow">Прыжков</a>. </p>
+</blockquote></div><div class="el-hr"><hr></div><div class="el-h3"><h3 data-heading="Защита без доспехов" dir="auto" class="heading" id="Защита_без_доспехов_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Защита без доспехов</h3></div><div class="el-blockquote"><blockquote dir="auto">
+<pre><code data-line="0">1 уровень
+</code><button class="copy-code-button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-copy"><rect x="8" y="8" width="14" height="14" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg></button></pre>
+<p>Ваш базовый <strong>КД</strong> равен <strong>10</strong> + мод. <strong>Ловкости</strong> + мод. <strong>Мудрости</strong></p>
+</blockquote></div><div class="el-hr"><hr></div><div class="el-h3"><h3 data-heading="Очки духа" dir="auto" class="heading" id="Очки_духа_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Очки духа</h3></div><div class="el-blockquote"><blockquote dir="auto">
+<pre><code data-line="0">2 уровень
+</code><button class="copy-code-button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-copy"><rect x="8" y="8" width="14" height="14" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg></button></pre>
+<p>Вы обучились использовать особую энергию внутри вас представленную <strong>очками духа</strong>. Некоторые умения <strong>Монаха</strong>, требуют для использования <strong>очки духа</strong>.</p>
+<p>Количество <strong>очков духа</strong> равно вашему уровню <strong>монаха</strong>. Вы восстанавливаете их после окончания <strong><em>короткого</em></strong> или <a data-tooltip-position="top" aria-label="https://ttg.club/screens/long_rest" rel="noopener nofollow" class="external-link is-unresolved" href="https://ttg.club/screens/long_rest" target="_self">продолжительного отдыха</a>. </p>
+</blockquote></div><div class="el-hr"><hr></div><div class="el-h3"><h3 data-heading="Техники" dir="auto" class="heading" id="Техники_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Техники</h3></div><div class="el-blockquote"><blockquote dir="auto">
+<pre><code data-line="0">2, 6, 9, 13 уровень
+</code><button class="copy-code-button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-copy"><rect x="8" y="8" width="14" height="14" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg></button></pre>
+<p>Вы овладели разнообразными <strong>Техниками</strong> монахов.</p>
+<h5 data-heading="Спасбросок" dir="auto" class="heading" id="Спасбросок_0">Спасбросок</h5>
+<p>Некоторые <strong>Техники</strong> требует совершения спасброска </p>
+<ul class="has-list-bullet">
+<li data-line="5" dir="auto"><span class="list-bullet"></span>Сл. Спасброска = 8 + <strong>БМ</strong> + мод. <strong>Мудрости</strong>.</li>
+</ul>
+<h6 data-heading="На 3 уровне этого класса:" dir="auto" class="heading" id="На_3_уровне_этого_класса_0">На 3 уровне этого класса:</h6>
+<ul class="has-list-bullet">
+<li data-line="8" dir="auto"><span class="list-bullet"></span><a data-href="Шквал ударов" href="правила/классы/монах/техники/3/шквал-ударов.html#_0" class="internal-link" target="_self" rel="noopener nofollow">Шквал ударов</a></li>
+<li data-line="9" dir="auto"><span class="list-bullet"></span><a data-href="Поступь ветра" href="правила/классы/монах/техники/3/поступь-ветра.html#_0" class="internal-link" target="_self" rel="noopener nofollow">Поступь ветра</a></li>
+<li data-line="10" dir="auto"><span class="list-bullet"></span><a data-href="Калечащий удар" href="правила/классы/монах/техники/3/калечащий-удар.html#_0" class="internal-link" target="_self" rel="noopener nofollow">Калечащий удар</a></li>
+</ul>
+<h6 data-heading="На 6 уровне этого класса:" dir="auto" class="heading" id="На_6_уровне_этого_класса_0">На 6 уровне этого класса:</h6>
+<ul class="has-list-bullet">
+<li data-line="13" dir="auto"><span class="list-bullet"></span><a data-href="Вихревой удар" href="правила/классы/монах/техники/6/вихревой-удар.html#_0" class="internal-link" target="_self" rel="noopener nofollow">Вихревой удар</a></li>
+<li data-line="14" dir="auto"><span class="list-bullet"></span><a data-href="Отражение" href="правила/классы/монах/техники/6/отражение.html#_0" class="internal-link" target="_self" rel="noopener nofollow">Отражение</a></li>
+<li data-line="15" dir="auto"><span class="list-bullet"></span><a data-href="Сковывающий удар" href="правила/классы/монах/техники/6/сковывающий-удар.html#_0" class="internal-link" target="_self" rel="noopener nofollow">Сковывающий удар</a></li>
+</ul>
+<h6 data-heading="На 9 уровне этого класса:" dir="auto" class="heading" id="На_9_уровне_этого_класса_0">На 9 уровне этого класса:</h6>
+<ul class="has-list-bullet">
+<li data-line="18" dir="auto"><span class="list-bullet"></span><a data-href="Стремящийся дух" href="правила/классы/монах/техники/9/стремящийся-дух.html#_0" class="internal-link" target="_self" rel="noopener nofollow">Стремящийся дух</a></li>
+<li data-line="19" dir="auto"><span class="list-bullet"></span><a data-href="Небесный шаг" href="правила/классы/монах/техники/9/небесный-шаг.html#_0" class="internal-link" target="_self" rel="noopener nofollow">Небесный шаг</a></li>
+<li data-line="20" dir="auto"><span class="list-bullet"></span><a data-href="Ошеломляющий удар" href="правила/классы/монах/техники/9/ошеломляющий-удар.html#_0" class="internal-link" target="_self" rel="noopener nofollow">Ошеломляющий удар</a></li>
+</ul>
+</blockquote></div><div class="el-hr"><hr></div><div class="el-h3"><h3 data-heading="Подкласс" dir="auto" class="heading" id="Подкласс_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Подкласс</h3></div><div class="el-blockquote"><blockquote dir="auto">
+<pre><code data-line="0">3, 7, 11, 15 уровень
+</code><button class="copy-code-button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-copy"><rect x="8" y="8" width="14" height="14" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg></button></pre>
+<p>Вы получаете <strong><em>Подкласс Монаха</em></strong> по вашему выбору. </p>
+<pre><code data-line="3">Подкласс - это специализация, которая предоставляет умения на определённых уровнях класса. В ходе развития вы получаете умения вашего подкласса, которые соответствуют вашему уровню в данном классе или ниже.
+</code><button class="copy-code-button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-copy"><rect x="8" y="8" width="14" height="14" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg></button></pre>
+</blockquote></div><div class="el-hr"><hr></div><div class="el-h3"><h3 data-heading="Улучшение характеристик" dir="auto" class="heading" id="Улучшение_характеристик_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Улучшение характеристик</h3></div><div class="el-blockquote"><blockquote dir="auto">
+<pre><code data-line="0">4, 8, 12, 16 уровень
+</code><button class="copy-code-button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-copy"><rect x="8" y="8" width="14" height="14" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg></button></pre>
+<p>Вы получаете <a data-tooltip-position="top" aria-label="2_Общие" data-href="2_Общие" href="черты/2_общие/2_общие.html#_0" class="internal-link" target="_self" rel="noopener nofollow">Черту</a> по вашему выбору. </p>
+</blockquote></div><div class="el-hr"><hr></div><div class="el-h3"><h3 data-heading="Дополнительная атака" dir="auto" class="heading" id="Дополнительная_атака_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Дополнительная атака</h3></div><div class="el-blockquote"><blockquote dir="auto">
+<pre><code data-line="0">5 уровень
+</code><button class="copy-code-button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-copy"><rect x="8" y="8" width="14" height="14" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg></button></pre>
+<p>Вы можете атаковать 2 раза вместо одного, когда вы совершаете действие <strong><em>Атака</em></strong> в свой ход.</p>
+</blockquote></div><div class="el-hr"><hr></div><div class="el-h3"><h3 data-heading="Отточенная техника" dir="auto" class="heading" id="Отточенная_техника_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Отточенная техника</h3></div><div class="el-blockquote"><blockquote dir="auto">
+<pre><code data-line="0">10 уровень
+</code><button class="copy-code-button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-copy"><rect x="8" y="8" width="14" height="14" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg></button></pre>
+<p>Раз в ход, вы можете использовать <a data-tooltip-position="top" aria-label="Техники" data-href="#Техники" href="правила/классы/монах/монах.html#Техники_0" class="internal-link" target="_self" rel="noopener nofollow">Технику</a>, требующую 1 <a data-tooltip-position="top" aria-label="Очки духа" data-href="#Очки духа" href="правила/классы/монах/монах.html#Очки_духа_0" class="internal-link" target="_self" rel="noopener nofollow">Очка духа</a>, без траты <a data-tooltip-position="top" aria-label="Очки духа" data-href="#Очки духа" href="правила/классы/монах/монах.html#Очки_духа_0" class="internal-link" target="_self" rel="noopener nofollow">Очков духа</a>.</p>
+</blockquote></div><div class="el-hr"><hr></div><div class="el-h3"><h3 data-heading="Стойкий дух" dir="auto" class="heading" id="Стойкий_дух_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Стойкий дух</h3></div><div class="el-blockquote"><blockquote dir="auto">
+<pre><code data-line="0">13 уровень
+</code><button class="copy-code-button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-copy"><rect x="8" y="8" width="14" height="14" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg></button></pre>
+<p>Вы получаете владение спасбросками <strong>Мудрости</strong>.</p>
+</blockquote></div><div class="el-hr"><hr></div><div class="el-h3"><h3 data-heading="Совершенное тело" dir="auto" class="heading" id="Совершенное_тело_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Совершенное тело</h3></div><div class="el-blockquote"><blockquote dir="auto">
+<pre><code data-line="0">14 уровень
+</code><button class="copy-code-button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-copy"><rect x="8" y="8" width="14" height="14" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg></button></pre>
+<p>Вы получаете владение спасброском <strong>Телосложения</strong>. А также:</p>
+<ul class="has-list-bullet">
+<li data-line="2" dir="auto"><span class="list-bullet"></span>иммунитет от всех болезней.</li>
+<li data-line="3" dir="auto"><span class="list-bullet"></span>не нуждаетесь в еде, воде и сне.</li>
+<li data-line="4" dir="auto"><span class="list-bullet"></span>стареете в 10 раз медленнее.</li>
+</ul>
+</blockquote></div><div class="el-hr"><hr></div><div class="el-h3"><h3 data-heading="Пробуждение" dir="auto" class="heading" id="Пробуждение_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Пробуждение</h3></div><div class="el-blockquote"><blockquote dir="auto">
+<pre><code data-line="0">18 уровень
+</code><button class="copy-code-button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-copy"><rect x="8" y="8" width="14" height="14" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg></button></pre>
+<p>Вы можете, медитируя в течение 1 минуту, уменьшить своё максимальное количество <a data-tooltip-position="top" aria-label="Очки духа" data-href="#Очки духа" href="правила/классы/монах/монах.html#Очки_духа_0" class="internal-link" target="_self" rel="noopener nofollow">Очков духа</a> и наложить на себя заклинание&nbsp;<a data-tooltip-position="top" aria-label="https://ttg.club/spells/foresight" rel="noopener nofollow" class="external-link is-unresolved" href="https://ttg.club/spells/foresight" target="_self">предвидение</a>. </p>
+<p>Вы можете прекратить этот эффект&nbsp;<em>Действием</em>, при этом <a data-href="#Очки духа" href="правила/классы/монах/монах.html#Очки_духа_0" class="internal-link" target="_self" rel="noopener nofollow">Очки духа</a>, потраченные для использования данного умения НЕ восстанавливаются.</p>
+</blockquote></div><div class="el-hr"><hr></div><div class="el-h3"><h3 data-heading="Эпическая черта" dir="auto" class="heading" id="Эпическая_черта_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Эпическая черта</h3></div><div class="el-blockquote"><blockquote dir="auto">
+<pre><code data-line="0">19 уровень
+</code><button class="copy-code-button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-copy"><rect x="8" y="8" width="14" height="14" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg></button></pre>
+<p>Вы получаете <a data-tooltip-position="top" aria-label="3_Эпические" data-href="3_Эпические" href="черты/3_эпические/3_эпические.html#_0" class="internal-link" target="_self" rel="noopener nofollow">Эпическую черту</a> или другую черту по вашему выбору, требованиям которой вы соответствуете.</p>
+</blockquote></div><div class="el-hr"><hr></div><div class="el-h3"><h3 data-heading="Идеальное тело и дух" dir="auto" class="heading" id="Идеальное_тело_и_дух_0"><span class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></span>Идеальное тело и дух</h3></div><div class="el-blockquote"><blockquote dir="auto">
+<pre><code data-line="0">20 уровень
+</code><button class="copy-code-button"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-copy"><rect x="8" y="8" width="14" height="14" rx="2" ry="2"></rect><path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"></path></svg></button></pre>
+<p>Ваши показатели <strong>Ловкости</strong> и <strong>Мудрости</strong> увеличиваются на <strong>4</strong>, с максимум <strong>25</strong>.</p>
+</blockquote></div><div class="footer"><div class="data-bar"></div></div></div></div></div><div id="right-content" class="leaf" style="--sidebar-width: var(--sidebar-width-right);"><div id="right-sidebar" class="sidebar"><div class="sidebar-handle"></div><div class="sidebar-topbar"><div class="topbar-content"><label class="theme-toggle-container" for="theme-toggle-input" id=""><input class="theme-toggle-input" type="checkbox" id="theme-toggle-input"><div class="toggle-background"></div></label></div><div class="clickable-icon sidebar-collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><path d="M21 3H3C1.89543 3 1 3.89543 1 5V19C1 20.1046 1.89543 21 3 21H21C22.1046 21 23 20.1046 23 19V5C23 3.89543 22.1046 3 21 3Z"></path><path d="M10 4V20"></path><path d="M4 7H7"></path><path d="M4 10H7"></path><path d="M4 13H7"></path></svg></div></div><div class="sidebar-content-wrapper"><div id="right-sidebar-content" class="leaf-content"><div class="graph-view-wrapper"><div class="feature-header"><div class="feature-title">Interactive Graph</div></div><div class="graph-view-placeholder">
+		<div class="graph-view-container">
+			<div class="graph-icon graph-expand" role="button" aria-label="Expand" data-tooltip-position="top"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg></div>
+			<div class="graph-icon graph-global" role="button" aria-label="Global Graph" data-tooltip-position="top"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon lucide-git-fork"><circle cx="12" cy="18" r="3"></circle><circle cx="6" cy="6" r="3"></circle><circle cx="18" cy="6" r="3"></circle><path d="M18 9v2c0 .6-.4 1-1 1H7c-.6 0-1-.4-1-1V9"></path><path d="M12 12v3"></path></svg></div>
+			<canvas id="graph-canvas" class="hide" width="512px" height="512px"></canvas>
+		</div>
+		</div></div><div id="outline" class=" tree-container"><div class="feature-header"><div class="feature-title">Table Of Contents</div><button class="clickable-icon nav-action-button tree-collapse-all" aria-label="Collapse All"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></svg></button></div><div class="tree-item mod-collapsible" data-depth="1"><a class="tree-item-self is-clickable mod-collapsible" href="правила/классы/монах/монах.html#Монах_0" data-path="#Монах_0"><div class="tree-item-icon collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><div class="tree-item-inner heading-link" heading-name="Монах">Монах</div></a><div class="tree-item-children"><div class="tree-item" data-depth="2"><a class="tree-item-self is-clickable" href="правила/классы/монах/монах.html#Особенности_0" data-path="#Особенности_0"><div class="tree-item-inner heading-link" heading-name="Особенности">Особенности</div></a><div class="tree-item-children"></div></div><div class="tree-item" data-depth="2"><a class="tree-item-self is-clickable" href="правила/классы/монах/монах.html#Монах_1" data-path="#Монах_1"><div class="tree-item-inner heading-link" heading-name="Монах">Монах</div></a><div class="tree-item-children"></div></div><div class="tree-item mod-collapsible" data-depth="2"><a class="tree-item-self is-clickable mod-collapsible" href="правила/классы/монах/монах.html#Умения_0" data-path="#Умения_0"><div class="tree-item-icon collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><div class="tree-item-inner heading-link" heading-name="Умения">Умения</div></a><div class="tree-item-children"><div class="tree-item mod-collapsible" data-depth="3"><a class="tree-item-self is-clickable mod-collapsible" href="правила/классы/монах/монах.html#Боевые_искусства_0" data-path="#Боевые_искусства_0"><div class="tree-item-icon collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><div class="tree-item-inner heading-link" heading-name="Боевые искусства">Боевые искусства</div></a><div class="tree-item-children"><div class="tree-item" data-depth="5"><a class="tree-item-self is-clickable" href="правила/классы/монах/монах.html#Искустные_атаки_0" data-path="#Искустные_атаки_0"><div class="tree-item-inner heading-link" heading-name="Искустные атаки">Искустные атаки</div></a><div class="tree-item-children"></div></div><div class="tree-item" data-depth="5"><a class="tree-item-self is-clickable" href="правила/классы/монах/монах.html#Ловкие_атаки_0" data-path="#Ловкие_атаки_0"><div class="tree-item-inner heading-link" heading-name="Ловкие атаки">Ловкие атаки</div></a><div class="tree-item-children"></div></div><div class="tree-item" data-depth="5"><a class="tree-item-self is-clickable" href="правила/классы/монах/монах.html#Движение_без_доспехов_0" data-path="#Движение_без_доспехов_0"><div class="tree-item-inner heading-link" heading-name="Движение без доспехов">Движение без доспехов</div></a><div class="tree-item-children"></div></div><div class="tree-item" data-depth="5"><a class="tree-item-self is-clickable" href="правила/классы/монах/монах.html#Ловкие_прыжки_0" data-path="#Ловкие_прыжки_0"><div class="tree-item-inner heading-link" heading-name="Ловкие прыжки">Ловкие прыжки</div></a><div class="tree-item-children"></div></div></div></div><div class="tree-item" data-depth="3"><a class="tree-item-self is-clickable" href="правила/классы/монах/монах.html#Защита_без_доспехов_0" data-path="#Защита_без_доспехов_0"><div class="tree-item-inner heading-link" heading-name="Защита без доспехов">Защита без доспехов</div></a><div class="tree-item-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-item-self is-clickable" href="правила/классы/монах/монах.html#Очки_духа_0" data-path="#Очки_духа_0"><div class="tree-item-inner heading-link" heading-name="Очки духа">Очки духа</div></a><div class="tree-item-children"></div></div><div class="tree-item mod-collapsible" data-depth="3"><a class="tree-item-self is-clickable mod-collapsible" href="правила/классы/монах/монах.html#Техники_0" data-path="#Техники_0"><div class="tree-item-icon collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><div class="tree-item-inner heading-link" heading-name="Техники">Техники</div></a><div class="tree-item-children"><div class="tree-item" data-depth="5"><a class="tree-item-self is-clickable" href="правила/классы/монах/монах.html#Спасбросок_0" data-path="#Спасбросок_0"><div class="tree-item-inner heading-link" heading-name="Спасбросок">Спасбросок</div></a><div class="tree-item-children"></div></div><div class="tree-item" data-depth="6"><a class="tree-item-self is-clickable" href="правила/классы/монах/монах.html#На_3_уровне_этого_класса_0" data-path="#На_3_уровне_этого_класса_0"><div class="tree-item-inner heading-link" heading-name="На 3 уровне этого класса:">На 3 уровне этого класса:</div></a><div class="tree-item-children"></div></div><div class="tree-item" data-depth="6"><a class="tree-item-self is-clickable" href="правила/классы/монах/монах.html#На_6_уровне_этого_класса_0" data-path="#На_6_уровне_этого_класса_0"><div class="tree-item-inner heading-link" heading-name="На 6 уровне этого класса:">На 6 уровне этого класса:</div></a><div class="tree-item-children"></div></div><div class="tree-item" data-depth="6"><a class="tree-item-self is-clickable" href="правила/классы/монах/монах.html#На_9_уровне_этого_класса_0" data-path="#На_9_уровне_этого_класса_0"><div class="tree-item-inner heading-link" heading-name="На 9 уровне этого класса:">На 9 уровне этого класса:</div></a><div class="tree-item-children"></div></div></div></div><div class="tree-item" data-depth="3"><a class="tree-item-self is-clickable" href="правила/классы/монах/монах.html#Подкласс_0" data-path="#Подкласс_0"><div class="tree-item-inner heading-link" heading-name="Подкласс">Подкласс</div></a><div class="tree-item-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-item-self is-clickable" href="правила/классы/монах/монах.html#Улучшение_характеристик_0" data-path="#Улучшение_характеристик_0"><div class="tree-item-inner heading-link" heading-name="Улучшение характеристик">Улучшение характеристик</div></a><div class="tree-item-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-item-self is-clickable" href="правила/классы/монах/монах.html#Дополнительная_атака_0" data-path="#Дополнительная_атака_0"><div class="tree-item-inner heading-link" heading-name="Дополнительная атака">Дополнительная атака</div></a><div class="tree-item-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-item-self is-clickable" href="правила/классы/монах/монах.html#Отточенная_техника_0" data-path="#Отточенная_техника_0"><div class="tree-item-inner heading-link" heading-name="Отточенная техника">Отточенная техника</div></a><div class="tree-item-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-item-self is-clickable" href="правила/классы/монах/монах.html#Стойкий_дух_0" data-path="#Стойкий_дух_0"><div class="tree-item-inner heading-link" heading-name="Стойкий дух">Стойкий дух</div></a><div class="tree-item-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-item-self is-clickable" href="правила/классы/монах/монах.html#Совершенное_тело_0" data-path="#Совершенное_тело_0"><div class="tree-item-inner heading-link" heading-name="Совершенное тело">Совершенное тело</div></a><div class="tree-item-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-item-self is-clickable" href="правила/классы/монах/монах.html#Пробуждение_0" data-path="#Пробуждение_0"><div class="tree-item-inner heading-link" heading-name="Пробуждение">Пробуждение</div></a><div class="tree-item-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-item-self is-clickable" href="правила/классы/монах/монах.html#Эпическая_черта_0" data-path="#Эпическая_черта_0"><div class="tree-item-inner heading-link" heading-name="Эпическая черта">Эпическая черта</div></a><div class="tree-item-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-item-self is-clickable" href="правила/классы/монах/монах.html#Идеальное_тело_и_дух_0" data-path="#Идеальное_тело_и_дух_0"><div class="tree-item-inner heading-link" heading-name="Идеальное тело и дух">Идеальное тело и дух</div></a><div class="tree-item-children"></div></div></div></div></div></div></div></div></div><script defer="">let rs = document.querySelector("#right-sidebar"); rs.classList.toggle("is-collapsed", window.innerWidth < 768); rs.style.setProperty("--sidebar-width", localStorage.getItem("sidebar-right-width"));</script></div></div></div></body></html>
